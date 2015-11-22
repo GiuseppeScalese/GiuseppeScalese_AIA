@@ -1,0 +1,58 @@
+#heroImage{
+	 background: url(../img/hero.jpg) no-repeat center;
+	 height: 470px;
+
+	 .mediaList{
+		float:right;
+		overflow: auto;
+		padding-top: 20px;
+	}
+
+	h1.heroHeading{
+		font-size: 68px;
+		padding: 260px 0 40px 0;
+		line-height: 63px;
+		text-align: center;
+	}
+
+	span{
+		color: #c70071;
+	}
+
+}
+
+@include deskop_tablets{
+
+  #heroImage{
+
+    h1.heroHeading{
+    	font-size: 50px;
+    	line-height: 50px;
+    	padding-top: 300px;
+    }
+  }
+}
+
+@include phone{
+
+	#heroImage{
+		background-position: top;
+		background-size: 100% 60%;
+		background-repeat: no-repeat;
+		background-color: $background-copy-color;
+		height: auto;
+
+		.mediaList{
+			display: none;
+		}
+
+		h1.heroHeading{
+			font-size: 24px;
+			padding: 214px 0 20px 0;
+			line-height: 26px;
+		}
+	}
+}
+
+
+

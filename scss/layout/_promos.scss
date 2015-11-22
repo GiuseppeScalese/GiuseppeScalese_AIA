@@ -1,0 +1,70 @@
+#promos{
+	background-image: url(../img/promos_background.jpg);
+	background-size: 100%;
+	background-repeat: repeat;
+
+	.promosList{
+		text-align: center;
+		padding: 40px 0;
+
+		li{
+			display: inline-block;
+			padding-right: 60px;
+
+			figure{
+
+				a{
+					display: block;
+
+					figcaption{
+						font-size: 18px;
+					}
+
+				}
+			}
+		}
+
+		li:last-child{
+			padding-right: 0;
+		}
+
+		li:nth-child(2){
+			padding-right: 45px;
+		}	
+	}
+}
+
+@include deskop_tablets{
+
+	#promos{
+
+		.promosList{
+
+			li,li:nth-child(2){
+				padding-right: 0;
+			}
+
+			li:first-child{
+				padding-right: 12px;
+			}	
+		}
+	}	 
+}
+
+@include phone{
+
+	#promos{
+		
+		.promosList{
+
+			li{
+				display: block;
+				padding-bottom: 30px;
+			}
+
+			li,li:nth-child(2){
+				padding-right: 0;
+			}	
+		}
+	} 
+}

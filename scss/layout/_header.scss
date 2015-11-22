@@ -1,0 +1,69 @@
+header#mainHeader{
+	
+	margin-top: 30px;
+	overflow: auto;
+
+	#mobileMenu{
+		display: none;
+	}
+
+
+	a.logoLink{
+		background: $primary-color;
+		padding-left: 8%;
+		display: block;
+
+		.logoImage{
+			display: block;
+	    }
+	}	
+
+	header#menu{
+		display: none;
+	}	
+}
+
+@include deskop_tablets{
+
+	header#mainHeader{
+
+		h1#companyName{
+			font-size: 38px;
+		}
+	}
+}
+
+@include phone{
+
+	header#mainHeader{
+		margin-top: 0px;
+
+		a.logoLink{
+			padding-left: 40px;
+		}
+
+		h1#companyName{
+			font-size: 30px;
+		}
+
+		#mediaList{
+			display: none; 
+		}
+
+		#mobileMenu{	
+			background-color: $background-nav-color;
+			display: block; 
+			width: 100%;
+			height: 36px;
+
+			span{
+				float: right;
+				cursor: pointer;
+				height: 36px;
+			}
+		}
+
+	}
+}
+
+

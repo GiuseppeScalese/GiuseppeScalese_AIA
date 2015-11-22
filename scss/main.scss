@@ -1,0 +1,13 @@
+// main.scss
+@import 'utils/_variables.scss';
+
+@import 'base/_mixins.scss';
+@import 'base/_reset.scss'; 
+@import 'base/_base.scss';
+
+@import 'layout/_header.scss';
+@import 'layout/_navigation.scss';
+@import 'layout/_footer.scss';
+@import 'layout/_hero.scss';
+@import 'layout/_promos.scss';
+@import 'layout/_search&apply.scss';

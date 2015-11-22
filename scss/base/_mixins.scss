@@ -1,0 +1,21 @@
+@mixin hover-transition($color, $transition_speed){	
+  -webkit-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -moz-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -o-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  -ms-transition: color $transition_speed ease,text-decoration $transition_speed ease ;
+  transition: color $transition_speed ease, text-decoration $transition_speed ease ;
+}
+
+@mixin phone{
+	@media screen and (max-width: #{$mobile-width-min}) {
+		@content; 
+	}
+}
+
+@mixin deskop_tablets{
+	@media screen and (min-width: #{$mobile-width-min}) and (max-width: #{$mobile-width-max}) {
+  		@content; 
+	}	
+}
+
+

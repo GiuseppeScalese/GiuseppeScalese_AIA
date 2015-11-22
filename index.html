@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AIA Front End Test</title>
+
+<!--[if lt IE 9]>
+<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+
+<!-- Internet Explorer 8 or older versions doesn't support CSS3 media queries. I enable it by importing css3-mediaqueries.js Javascript file. -->
+<!--[if lt IE 9]>
+    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
+<![endif]-->  
+
+<!-- importing jquery library -->
+<script src="./js/jquery-1.11.2.min.js" ></script>
+
+<!-- importing custom script file -->
+<script src="./js/function.js" ></script> 
+
+<!-- importing custom css -->
+<link rel="stylesheet" href="./css/main.css"/>
+
+</head>
+<body>
+  <div id="wrapper">
+    <header id="mainHeader">
+      <a class="logoLink" href="#" title="Go to the company homepage">
+        <img class="logoImage" src="./img/logo.gif" alt="Company logo"/>
+      </a> 
+      <div id="mobileMenu">
+        <span><img src="./img/navmobile_icon.gif" alt="Mobile menu"/></span>
+      </div>
+      <nav id="desktopNav">
+        <ul> 
+            <li><a class="selected" href="#">HOME</a></li>   
+            <li><a href="#">ABOUT US</a></li>
+            <li><a href="#">GRADUATE PROGRAMMES</a></li>
+            <li><a href="#">INTERNSHIPS</a></li>
+            <li><a href="#">SEARCH JOBS AND APPLY</a></li>
+        </ul>
+      </nav>  
+    </header>
+
+    <div id="heroImage">
+      <ul class="mediaList">
+          <li>
+              <a href="#" title="Follow us on Twitter"><img src="./img/twitter.gif" alt="Twitter"/></a>
+          </li>
+          <li>
+              <a href="#" title="Like us on Facebook"><img src="./img/facebook.gif" alt="Facebook"/></a>
+          </li>
+          <li>
+              <a href="#" title="Watch us on YouTube"><img src="./img/youtube.gif" alt="YouTube"/></a>
+          </li>
+      </ul>  
+      <h1 class="heroHeading">
+        WE <span>LOVE</span> <br/> THE POSITIVELY <br/>PERPLEXING
+      </h1>
+    </div>
+
+    <div id="search">
+      <form action="/somesearchaction" name="search" method="get">   
+        <input title="Please enter the job wanted" placeholder="Search Jobs and apply" type="text"></input>
+        <button type="submit"><img src="./img/search_icon.gif" alt="Search job" /></button>     
+      </form>
+    </div>
+
+    <div id="introCopy">
+      <h2>GRADUATE CAREERS & INTERNSHIPS</h2>
+      <p>Welcome to Company. We’re a leading engineering and technology company where solving mind-bending problems is our job, our passion – our world. If you’re a graduate keen to embark on a stimulating engineering, business or finance career, or an undergraduate looking for an insightful internship or placement, it could be your world too. Read about our graduate and internship programmes in the UK. Find out how you can develop. Discover what we’re doing in Security, Defence, Aerospace and Transport. Delve into this site – and <a href="#" title="Watch our presentation video of careers and internships">watch the video</a>.</p>
+    </div>
+
+    <div id="promos">
+        <ul class="promosList">
+          <li>
+            <figure>
+              <a href="#" title="Find out about our roles">
+                <img src="./img/roles_img.png" alt="Our Roles"/>
+                <figcaption>Roles</figcaption> 
+              </a>  
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a href="#" title="Find out about our open events">
+                <img src="./img/openevents_img.png" alt="Open events"/>
+                <figcaption>Open events</figcaption> 
+              </a>  
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <a href="#" title="Find out about the recruitment process">
+                <img src="./img/recprocess_img.png" alt="Recruitment process"/>
+                <figcaption>Recruitment process</figcaption>
+              </a>         
+            </figure>                 
+          </li>
+       </ul>  
+    </div>
+
+    <footer>
+      <p class="copyrightCopy">&copy; Copyright Company 2014</p>
+      <ul class="retailers">
+          <li>
+              <img src="./img/5club_img.gif" alt="The 5% Club"/>
+          </li>
+          <li>
+              <img src="./img/uk300_img.gif" alt="Uk 300"/>
+          </li>
+      </ul>  
+    </footer>
+  </div>
+</body>
+</html>
+
+
+
