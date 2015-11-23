@@ -273,6 +273,15 @@ footer .retailers li {
   padding-top: 20px;
 }
 
+#heroImage .mediaList li {
+  padding-bottom: 5px;
+}
+
+#heroImage .mediaList li a,
+#heroImage .mediaList li img {
+  display: block;
+}
+
 #heroImage h1.heroHeading {
   font-size: 68px;
   padding: 260px 0 40px 0;
