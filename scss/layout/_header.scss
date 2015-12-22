@@ -1,4 +1,4 @@
-header#mainHeader{
+#mainHeader{
 	
 	margin-top: 30px;
 
@@ -24,7 +24,7 @@ header#mainHeader{
 
 @include deskop_tablets{
 
-	header#mainHeader{
+	#mainHeader{
 
 		h1#companyName{
 			font-size: 38px;
@@ -34,7 +34,7 @@ header#mainHeader{
 
 @include phone{
 
-	header#mainHeader{
+	#mainHeader{
 		margin-top: 0px;
 
 		a.logoLink{
