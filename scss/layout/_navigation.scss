@@ -1,4 +1,4 @@
-nav#desktopNav{
+#desktopNav{
 
   display: inline-block;
   width: 100%;
@@ -37,7 +37,7 @@ nav#desktopNav{
 
 @include deskop_tablets{
 
-  nav#desktopNav{
+  #desktopNav{
 
     ul{
 
@@ -54,7 +54,7 @@ nav#desktopNav{
 
 @include phone{
 
-  nav#desktopNav{
+  #desktopNav{
   	
     border: 0;
     margin: 0 auto;
