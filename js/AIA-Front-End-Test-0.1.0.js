@@ -1,4 +1,4 @@
-/* AIA-Front-End-Test - v0.1.0 -2015-11-22 */$(document).ready(function(){
+/* HTML5 design example - v0.1.0 -2015-11-22 */$(document).ready(function(){
 
   //Click handler - performs the mobile menu toggle
   $("#mobileMenu > span").click(function(){
