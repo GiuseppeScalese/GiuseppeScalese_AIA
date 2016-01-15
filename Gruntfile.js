@@ -90,6 +90,5 @@ module.exports = function(grunt){
 	grunt.registerTask('default',['sass','uncss','cssmin','imagemin','uglify','concat']);
 
 	grunt.task.run('notify_hooks');
-
 };
 
